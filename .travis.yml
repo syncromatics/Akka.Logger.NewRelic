@@ -1,0 +1,15 @@
+language: csharp
+
+os: linux
+dist: trusty
+sudo: required
+dotnet: 2.0.0
+
+script:
+  - dotnet restore ./src/Akka.Logger.NewRelic
+  - dotnet build  ./src/Akka.Logger.NewRelic
+  - "if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_TAG ]]; then
+  dotnet build ./src/Akka.Logger.NewRelic --configuration Release /p:Version=$TRAVIS_TAG;
+  dotnet pack ./src/Akka.Logger.NewRelic --configuration Release /p:Version=$TRAVIS_TAG;
+  nuget push ./src/Akka.Logger.NewRelic/bin/Release/*.nupkg -ApiKey $NUGET_API_KEY;
+  fi"
