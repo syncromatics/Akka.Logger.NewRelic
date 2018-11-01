@@ -81,9 +81,9 @@ We welcome contributions and collaboration on this project. Please read our [con
 
 ## License and Authors
 
-[![Syncromatics Engineering logo](https://en.gravatar.com/userimage/100017782/89bdc96d68ad4b23998e3cdabdeb6e13.png?size=16) Syncromatics Engineering](https://github.com/syncromatics)
+[![GMV Syncromatics Engineering logo](https://secure.gravatar.com/avatar/645145afc5c0bc24ba24c3d86228ad39?size=16) GMV Syncromatics Engineering](https://github.com/syncromatics)
 
 [![license](https://img.shields.io/github/license/syncromatics/Akka.Logger.NewRelic.svg)](https://github.com/syncromatics/Akka.Logger.NewRelic/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/syncromatics/Akka.Logger.NewRelic.svg)](https://github.com/syncromatics/Akka.Logger.NewRelic/graphs/contributors)
 
-This software is made available by Syncromatics Engineering under the MIT license.
+This software is made available by GMV Syncromatics Engineering under the MIT license.
